@@ -1,0 +1,22 @@
+{
+  "name": "clean-cache",
+  "version": "1.0.0",
+  "module": "clean-cache.js",
+  "type": "module",
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "scripts": {
+    "build:js": "tsc clean-cache.ts",
+    "build": "pkg clean-cache.js --targets node18-win-x64 --output clean-cache.exe"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.15.18",
+    "pkg": "^5.8.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}
