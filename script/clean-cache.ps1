@@ -18,6 +18,8 @@ $targets = $jsonContent.targets | ForEach-Object {
 #   Write-Host "❎ Aborted." -ForegroundColor Red
 #   exit
 # }
+# "%APPDATA%\\GitHub Desktop",
+# "%LOCALAPPDATA%\\GitHubDesktop",
 
 Write-Host "`n⚠️ Clean ALL dev & app caches? (y/n)" -ForegroundColor Yellow
 $choice = [System.Console]::ReadKey($true).KeyChar

@@ -9,9 +9,6 @@
     "%APPDATA%\\Code\\CachedData",
     "%APPDATA%\\Code\\User\\workspaceStorage",
 
-    "%APPDATA%\\GitHub Desktop",
-    "%LOCALAPPDATA%\\GitHubDesktop",
-
     "%USERPROFILE%\\AppData\\Local\\Temp",
     "%USERPROFILE%\\AppData\\Local\\HitPaw Software\\HitPaw Toolkit\\cache",
     "%USERPROFILE%\\AppData\\Local\\HitPaw Software\\HitPaw Screen Recorder\\cache",
