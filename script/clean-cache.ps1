@@ -13,8 +13,16 @@ $targets = @(
   "$env:APPDATA\Code\CachedData",
   "$env:APPDATA\Code\User\workspaceStorage",
 
-  # App Temp
+  # App & Temp
   "$env:USERPROFILE\AppData\Local\Temp",
+  "$env:USERPROFILE\AppData\Local\HitPaw Software\HitPaw Toolkit\cache",
+  "$env:USERPROFILE\AppData\Local\HitPaw Software\HitPaw Screen Recorder\cache",
+  "$env:USERPROFILE\AppData\Local\node-gyp\Cache",
+  "$env:USERPROFILE\AppData\Local\npm-cache",
+  "$env:USERPROFILE\AppData\Local\Package Cache",
+  "$env:USERPROFILE\AppData\Local\pip\cache",
+  "$env:USERPROFILE\AppData\Local\prisma-nodejs\Cache",
+  "$env:USERPROFILE\AppData\Local\VS Revo Group\Revo Uninstaller Pro\BackUpsData",
 
   # Adobe (common folders, may vary by version)
   "$env:USERPROFILE\AppData\Roaming\Adobe",

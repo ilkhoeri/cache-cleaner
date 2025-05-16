@@ -77,7 +77,7 @@ Open `Disk Cleanup`:
 
 - Press `Win + R`, type `%temp%`, Enter
   - Delete all contents of the `temp` folder.
-- Press `Win + R`, type `cleanmgr`, Enter
+- Press `Win + R`, type `cleanmgr /low disk`, Enter
   - Select `C:`
   - Check all except `"Downloads"`
   - Click `"OK"`
