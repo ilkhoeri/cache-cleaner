@@ -1,4 +1,4 @@
-# Clean Cache
+# Cache Cleaner
 
 A much more efficient and no-reinstall way to clean up cache files, trash, and build artifacts from developing applications using VS Code, Bun, Yarn, npm, etc. This often causes the C: folder to be full even though it doesn't store many personal files.
 
@@ -62,7 +62,6 @@ Get-ChildItem -Recurse -Include "node_modules", ".next", "dist", "build" | Remov
 ## ✅ 3. Clear VSCode Extension Cache
 
 VSCode stores a lot of cache, history, and extensions:
-
 
 ```bash
 %APPDATA%\Code\Cache
