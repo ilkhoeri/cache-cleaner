@@ -1,0 +1,25 @@
+{
+  "name": "cache-cleaner",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "electron": "^36.2.1"
+  },
+	"prettier": {
+		"tabWidth": 2,
+		"printWidth": 180,
+		"semi": true,
+		"useTabs": false,
+		"singleQuote": true,
+		"bracketSpacing": true,
+		"jsxBracketSameLine": true,
+		"arrowParens": "avoid",
+		"trailingComma": "none"
+	}
+}
